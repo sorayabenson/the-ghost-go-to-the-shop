@@ -1,3 +1,10 @@
+import { Header } from './components/Layout/Header.jsx';
+import Paper from './views/Paper.jsx';
+import './style.css'
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <div>
+    <Header />
+    <Paper />
+  </div>;
 }

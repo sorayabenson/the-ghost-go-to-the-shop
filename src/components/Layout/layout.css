@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 5s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+}

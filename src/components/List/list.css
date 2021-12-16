@@ -1,0 +1,41 @@
+ul {
+    width: 54%;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    list-style: none;
+
+}
+
+li {
+    width: 100%;
+    min-height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: ivory 2px solid;
+    border-radius: 2px;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-shadow: ivory -6px 6px;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}
